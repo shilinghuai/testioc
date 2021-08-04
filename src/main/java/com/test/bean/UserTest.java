@@ -26,4 +26,7 @@ public class UserTest implements DIV{
         System.out.println("userTest postProcessAfterInitialization--slh");
         return bean;
     }
+    public static class MyInner{
+        int ia = 10;
+    }
 }

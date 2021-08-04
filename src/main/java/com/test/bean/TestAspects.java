@@ -7,8 +7,7 @@ import org.springframework.stereotype.Component;
 import java.util.Arrays;
 
 
-@Component("testAspects")
-@Aspect
+
 public class TestAspects {
 
     //抽取公共的切入点表达式
